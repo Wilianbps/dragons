@@ -40,6 +40,7 @@ O Wb Dragons é um projeto que busca informações de uma api de dragões, mostr
 - Card com informações de quantidade de dragões;
 - funcionalidade visualizar cada dragão da lista em um modal, podendo também remover ou alterar cada item;
 - Cadastrar um novo dragão
+- Botão de sair do sistema
 
 ## ⚙ Configuração
 
