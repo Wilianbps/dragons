@@ -34,6 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O Wb Dragons é um projeto que busca informações de uma api de dragões, mostra um dashboard em tela, e possui as seguintes funcionalidades:
+- Tela de login - usuário = wbdragons@gmail.com | senha = wbdragons
 - Lista com todos os dragões, com nome, tipo e data de criação;
 - Lista ordenada em ordem alfabética;
 - Card com informações de quantidade de dragões;
