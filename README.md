@@ -1,6 +1,6 @@
 # dragons
 <h1 align="center" >
-    <img alt="Marvel" title="#Dragon" src="/.github/dragon.jpg" width="400px"/>
+    <img alt="Marvel" title="#Dragon" src="/.github/dragon.jpg" width="200px"/>
 </h1>
 
 <h4 align="center">
