@@ -1,10 +1,10 @@
 # dragons
-<h1 align="center">
-    <img alt="Marvel" title="#Marvel" src="/.github/dragon.jpg" width="200px" />
+<h1 align="center" >
+    <img alt="Marvel" title="#Dragon" src="/.github/dragon.jpg" width="200px"/>
 </h1>
 
 <h4 align="center">
-  Marvel Comics
+  WB Dragons
 </h4>
 
 
@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="Marvel Comics" src=".github/personagens_marvel2.png" width="100%">
+  <img alt="Marvel Comics" src=".github/dragon3.jpg" width="600px">
 </p>
 
 ## : Tecnologias
@@ -25,17 +25,22 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 - [Styled-Components](https://styled-components.com/)
 - [React-Modal](https://reactcommunity.org/react-modal/)
+- [React-Icons](https://react-icons.github.io/react-icons/)
 
 ## 💻 Projeto
 
-O Marvel Comics é um projeto que busca os quadrinhos da api da marvel, mostra em tela ,e possui as seguintes funcionalidades:
-- filtro de pesquisa dos quadrinhos pelo nome
-- modal com informações detalhadas de cada quadrinho
-- funcionalidade de selecionar cada quadrinho
-- mostrar modal dos quadrinhos selecionados
+O Wb Dragons é um projeto que busca informações de uma api de dragões, mostra um dashboard em tela, e possui as seguintes funcionalidades:
+- Tela de login - usuário = wbdragons@gmail.com | senha = wbdragons
+- Lista com todos os dragões, com nome, tipo e data de criação;
+- Lista ordenada em ordem alfabética;
+- Card com informações de quantidade de dragões;
+- funcionalidade visualizar cada dragão da lista em um modal, podendo também remover ou alterar cada item;
+- Cadastrar um novo dragão
+- Botão de sair do sistema
 
 ## ⚙ Configuração
 
