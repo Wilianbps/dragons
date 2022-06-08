@@ -31,11 +31,9 @@ export function ListDragons() {
     setIsUpdateOrRemoveDragonModalOpen(false)
   }
 
-  const sortedDragonsByName = dragons.sort(( a, b : any) => {
+  const sortedDragonsByName = dragons.sort((a, b: any) => {
     return a?.name.localeCompare(b?.name)
   })
-
-  console.log(sortedDragonsByName)
 
   return (
     <Container>
