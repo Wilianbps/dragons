@@ -3,7 +3,7 @@ import { useDragons } from '../../hooks/useDragons'
 import { Container } from './styles'
 
 import { UpdateOrRemoveDragonModal } from '../../components/UpdateOrRemoveDragonModal'
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 
 interface dataDragon {
   id: string
@@ -19,6 +19,8 @@ export function ListDragons() {
     useState(false)
 
   const [getDragon, setGetDragon] = useState<dataDragon>({} as dataDragon)
+  const [order, setOrder] = useState(1)
+  const [colunmOrder, setColunmOrder] = useState('name')
 
   function handleGetDragon(dragon: dataDragon) {
     setGetDragon(dragon)
@@ -29,19 +31,25 @@ export function ListDragons() {
     setIsUpdateOrRemoveDragonModalOpen(false)
   }
 
+  const sortedDragonsByName = dragons.sort(( a, b : any) => {
+    return a?.name.localeCompare(b?.name)
+  })
+
+  console.log(sortedDragonsByName)
+
   return (
     <Container>
       <table>
         <thead>
           <tr>
-            <th>Nome</th>
+            <th onClick={e => {}}>Nome</th>
             <th>Tipo</th>
             <th>Data</th>
           </tr>
         </thead>
 
         <tbody>
-          {dragons?.map(dragon => {
+          {sortedDragonsByName?.map(dragon => {
             return (
               <tr key={dragon?.id} onClick={() => handleGetDragon(dragon)}>
                 <td>{dragon?.name}</td>
